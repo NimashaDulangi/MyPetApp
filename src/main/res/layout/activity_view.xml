@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.View">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back01" />
+
+    <EditText
+        android:id="@+id/searchEventName"
+        android:layout_width="365dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="176dp"
+        android:background="@drawable/lavender_border"
+        android:gravity="start|center_vertical"
+        android:hint="@string/eventName"
+        android:padding="16dp"
+        android:textColor="@color/lavender"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/searchButton2"
+        android:layout_width="250dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/lavender"
+        android:text="Search"
+        android:textSize="24sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchEventName" />
+
+    <TextView
+        android:id="@+id/searchEventName1"
+        android:layout_width="365dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/lavender_border"
+        android:gravity="start|center_vertical"
+        android:hint="Event Name"
+        android:padding="16dp"
+        android:textColor="@color/lavender"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/searchButton2" />
+
+    <TextView
+        android:id="@+id/searchEventLocation1"
+        android:layout_width="365dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="170dp"
+        android:background="@drawable/lavender_border"
+        android:gravity="start|center_vertical"
+        android:hint="Event Location"
+        android:padding="16dp"
+        android:textColor="@color/lavender"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/searchButton2" />
+
+    <TextView
+        android:id="@+id/searchEventDate1"
+        android:layout_width="365dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/lavender_border"
+        android:gravity="start|center_vertical"
+        android:hint="Event Date"
+        android:padding="16dp"
+        android:textColor="@color/lavender"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/searchButton2" />
+
+    <TextView
+        android:id="@+id/searchEventTime1"
+        android:layout_width="365dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="310dp"
+        android:background="@drawable/lavender_border"
+        android:gravity="start|center_vertical"
+        android:hint="Event Time"
+        android:padding="16dp"
+        android:textColor="@color/lavender"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/searchButton2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

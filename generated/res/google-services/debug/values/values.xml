@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">659319954146-vosfu75m1vacc9mbcqcd8dlser4rvmeh.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://nimashafinal-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">659319954146</string>
+    <string name="google_api_key" translatable="false">AIzaSyBzFMC8znKQk0-Mn58t6n2gQitPTypHPww</string>
+    <string name="google_app_id" translatable="false">1:659319954146:android:74c8c58ab690aba23f9cbb</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBzFMC8znKQk0-Mn58t6n2gQitPTypHPww</string>
+    <string name="google_storage_bucket" translatable="false">nimashafinal.appspot.com</string>
+    <string name="project_id" translatable="false">nimashafinal</string>
+</resources>
